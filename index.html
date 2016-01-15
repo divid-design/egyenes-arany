@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Egyenes arányosság alkalmzása</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Egyenes arányosság alkalmzása</h1>
+            <h4>A számításhoz legalább 3 mező kitöltése szükséges.</h4>
+        </header>
+        <section id="content" class="container-fluid">
+            <article>
+                <form id="urlap">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-5">  
+                            <fieldset class="form-group">
+                                <label for="a">Fizetés</label>
+                                <input type="number" class="form-control" id="a" name="a" placeholder="Kérem a számot" min="1">
+                                <small class="text-muted"></small>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-2">
+                            <p class="iksz">ⅹ</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-5">
+                            <fieldset class="form-group">
+                                <label for="b">Összes nap</label>
+                                <input type="number" class="form-control" id="b" name="b" placeholder="Kérem a számot" min="1">
+                                <small class="text-muted"></small>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12">
+                            <p class="egyenlo">=</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-5">
+                            <fieldset class="form-group">
+                                <label for="c">Napi bér</label>
+                                <input type="number" class="form-control" id="c" name="c" placeholder="Kérem a számot" min="1">
+                                <small class="text-muted"></small>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-2">
+                            <p class="iksz">ⅹ</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-5">
+                            <fieldset class="form-group">
+                                <label for="d">Napok száma</label>
+                                <input type="number" class="form-control" id="d" name="d" placeholder="Kérem a számot" min="1">
+                                <small class="text-muted"></small>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <input class="btn btn-default btn-lg center-block" id="szamolj" type="button" value="Számolj" disabled>
+                            <input class="btn btn-default btn-lg center-block" id="reset" type="reset" value="Újra">
+                        </div>
+                    </div>
+                </form>
+                
+            </article>
+        </section>
+        <aside>
+
+        </aside>
+        <footer>
+<p class="congrats"></p>
+        </footer>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <script src="skript.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+}
+article {
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+    max-width: 1000px;
+}
+form {
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+}
+h1, h4 {
+    padding-bottom: 10px;
+}
+form input[type="button"],
+form input[type="reset"] {
+    display: inline-block;
+}
+form input[type="button"]:disabled {
+    text-decoration: line-through;
+}
+form input[type="button"]:focus {
+    background-color:  rgb(245, 245, 245);
+}
+form input[type="reset"]:focus {
+    background-color:  rgb(245, 245, 245);
+}
+label.error {
+    display: block;
+    color: #ff0000;
+    text-align: center;
+}
+p, fieldset, input[type="number"] {
+    text-align: center;
+}
+.iksz, .egyenlo {
+    font-size: 40px;
+}
+input[type="text"] {
+    font-size: 20px;
+    min-height: 60px;
+    height: auto;
+}
+input:placeholder-shown {
+    font-size: 12px;
+}
+/*
+form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    paddin: 20px;
+    background-color: rgb(229, 229, 229);
+
+}
+form p {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+form input {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    font-size: 30px;
+    background-color:  rgb(245, 245, 245);
+}
+form input[type="text"] {
+    position: relative;
+}
+form input:focus {
+    background-color:  rgb(255, 255, 255);
+}
+form input[type="reset"] {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+}
+form input[type="reset"]:focus {
+    background-color:  rgb(245, 245, 245);
+}
+
+label.error {
+    display: block;
+    top: 0px;
+    colot: #ff0000;
+}*/
