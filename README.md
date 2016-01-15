@@ -1,0 +1,1 @@
+Egyenes arányszámítás html5 és jquery segítségével.
